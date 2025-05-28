@@ -22,4 +22,5 @@ jobs:
           cd Kelompok-11-Siska
           git pull
           npm install
-          npx pm2 restart all || npx pm2 start index.js --name "node-app"
+          npx pm2 start index.js --name "node-app"
+
